@@ -201,19 +201,13 @@ body {
   letter-spacing: -0.5px;
   margin-bottom: 0.2rem;
   line-height: 1.1;
-  background: linear-gradient(90deg, #ffffff, #e0e0e0);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.5));
+  color: #ffffff;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
 
 .name span {
-  font-weight: 300;
-  background: linear-gradient(90deg, #d0d0d0, #a0a0a0);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-weight: 700;
+  color: #ffffff;
 }
 
 .qualifications {
