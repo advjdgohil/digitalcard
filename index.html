@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jaydipsinh A. Gohil | Advocate</title>
+    <meta name="description" content="Official profile of Jaydipsinh A. Gohil, Advocate. B.COM | LLB. City Civil & Sessions Court, Metropolitan Magistrate Court, Mirzapur.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <div class="particles" id="particles"></div>
+    
+    <main class="container">
+        <!-- Digital Card -->
+        <div class="profile-card" id="tilt-card">
+            <div class="card-glow" id="card-glow"></div>
+            
+            <div class="card-left">
+                <div class="logo-container">
+                    <i class="fa-solid fa-scale-balanced main-logo"></i>
+                    <div class="logo-ring"></div>
+                </div>
+                <div class="advocate-badge">
+                    <svg viewBox="0 0 100 100" class="badge-svg">
+                        <circle cx="50" cy="50" r="48" fill="none" stroke="#fff" stroke-width="2"/>
+                        <!-- Stylized Advocate Neckband / Collar inside the badge -->
+                        <path d="M 30,30 L 70,30 C 70,30 80,45 65,55 L 50,45 L 35,55 C 20,45 30,30 30,30 Z" fill="none" stroke="#fff" stroke-width="2"/>
+                        <path d="M 45,40 L 40,75 M 55,40 L 60,75" fill="none" stroke="#fff" stroke-width="2"/>
+                        <text x="50" y="85" font-family="'Outfit', sans-serif" font-size="10" font-weight="600" fill="#fff" text-anchor="middle" letter-spacing="1.5">ADVOCATE</text>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="card-right">
+                <header class="profile-header">
+                    <h1 class="name">Jaydipsinh <span>A. Gohil</span></h1>
+                    <h2 class="qualifications">B.COM | LLB</h2>
+                    <p class="profession">(Advocate)</p>
+                </header>
+
+                <div class="divider"></div>
+
+                <section class="contact-section">
+                    <div class="contact-item interactive-item fade-in-up" style="--delay: 0.1s">
+                        <div class="icon-box">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="label">Phone / WhatsApp</span>
+                            <!-- Clean link to WhatsApp -->
+                            <div class="value-wrapper">
+                                <a href="https://wa.me/918530769705" class="value" target="_blank">+91 85307 69705</a>
+                                <button class="copy-btn" onclick="copyToClipboard('+918530769705', this)" title="Copy Number">
+                                    <i class="fa-regular fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item interactive-item fade-in-up" style="--delay: 0.2s">
+                        <div class="icon-box">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="label">Email Address</span>
+                            <div class="value-wrapper">
+                                <a href="mailto:adv.jdgohil@gmail.com" class="value">adv.jdgohil@gmail.com</a>
+                                <button class="copy-btn" onclick="copyToClipboard('adv.jdgohil@gmail.com', this)" title="Copy Email">
+                                    <i class="fa-regular fa-copy"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-item interactive-item fade-in-up" style="--delay: 0.3s">
+                        <div class="icon-box">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="contact-details">
+                            <span class="label">Office Location</span>
+                            <span class="value address">
+                                Mirzapur (Incometax)<br>
+                                City Civil & Sessions Court,<br>
+                                Metropolitan Magistrate Court.
+                            </span>
+                        </div>
+                    </div>
+                </section>
+
+
+
+                <div class="action-buttons fade-in-up" style="--delay: 0.4s">
+                    <button class="btn btn-primary" onclick="window.location.href='tel:+918530769705'">
+                        <i class="fa-solid fa-phone"></i> Call Now
+                    </button>
+                    <button class="btn btn-secondary" onclick="saveContact()">
+                        <i class="fa-solid fa-address-card"></i> Save Contact
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Services Card below -->
+        <div class="services-card fade-in-up" style="--delay: 0.5s">
+            <h3 class="section-title">Main Services <span class="title-gu">| મુખ્ય સેવાઓ</span></h3>
+            <div class="services-grid">
+                <div class="service-tag">
+                    <span class="en">Criminal Cases</span>
+                    <span class="gu">ક્રીમિનલ કેસો</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Civil Cases</span>
+                    <span class="gu">સિવલ કેસો</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Property Transfer</span>
+                    <span class="gu">પ્રોપર્ટી ટ્રાન્સફર</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Documentation</span>
+                    <span class="gu">દસ્તાવેજો</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Revenue Matters</span>
+                    <span class="gu">રેવન્યુ કામકાજ</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Succession Certificate</span>
+                    <span class="gu">પેઢીનામું</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Rent Agreement</span>
+                    <span class="gu">ભાડા કરાર</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Marriage Registration</span>
+                    <span class="gu">મેરેજ રજિસ્ટ્રેશન</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Domestic Violence</span>
+                    <span class="gu">ઘરેલું હિંસા કેસો</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Family Disputes</span>
+                    <span class="gu">કૌટુંબિક સમસ્યાઓ</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Cheque Bounce</span>
+                    <span class="gu">ચેક બાઉન્સ</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Income Tax Return</span>
+                    <span class="gu">ઈન્કમ ટેક્સ રીટર્ન</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">GST Filing</span>
+                    <span class="gu">GST રિટર્ન ફાઇલિંગ</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Accounting</span>
+                    <span class="gu">એકાઉન્ટિંગ</span>
+                </div>
+                <div class="service-tag">
+                    <span class="en">Other Legal Services</span>
+                    <span class="gu">અન્ય તમામ લીગલ સેવાઓ</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
